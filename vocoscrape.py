@@ -1,5 +1,5 @@
 # MODULES:
-# this code does not work anymore due to Siseveebs table now not working with the code. Tried updating the code, but you have to still do it by hand in the end and it just isn't worth it.
+# this code does not work anymore due to code not efficiently scraping the table anymore, it gets the data but it is ordered oddly and you have to clean it by hand. Tried updating the code, but you have to still do it by hand in the end and it just isn't worth it.
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
